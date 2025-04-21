@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the saved models
-with open("models/ie_model.pkl", "rb") as f:
+with open("models/IE_model.pkl", "rb") as f:
     ie_model = joblib.load(f)
-with open("models/ns_model.pkl", "rb") as f:
+with open("models/NS_model.pkl", "rb") as f:
     ns_model = joblib.load(f)
-with open("models/tf_model.pkl", "rb") as f:
+with open("models/TF_model.pkl", "rb") as f:
     tf_model = joblib.load(f)
-with open("models/jp_model.pkl", "rb") as f:
+with open("models/JP_model.pkl", "rb") as f:
     jp_model = joblib.load(f)
     
 # Function to predict MBTI from individual predictions
